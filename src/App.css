@@ -1,0 +1,23 @@
+.listing {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.add-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(---blue);
+  color: var(---white);
+  outline: none;
+  border: none;
+  transition: background-color 1s linear;
+}
+.add-btn:hover {
+  background-color: var(---skin);
+  color: var(---blue);
+}
+.bottom {
+  margin-top: 10px;
+}

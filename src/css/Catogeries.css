@@ -1,0 +1,11 @@
+.category-item img {
+  object-fit: cover;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.category-item {
+  width: max(20em, 30vw);
+}
+.category-item:hover {
+  box-shadow: 1px 2px 4px;
+}

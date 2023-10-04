@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+:root {
+  ---teal: #2ec4b6;
+  ---white: #fdfffc;
+  ---blue: #031d44;
+  ---skin: #dab785;
+}
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 850px) {
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    visibility: visible;
+    display: block;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .mobile-only {
+    visibility: hidden;
+    display: none;
+  }
+  .desktop-only {
+    display: flex;
+    visibility: visible;
+  }
+}

@@ -1,0 +1,24 @@
+.avatar{
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    padding: 5px;
+}
+.info{
+    flex: 2;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.info h3{
+    text-align: center;
+    margin: 5px;
+}
+.card{
+    margin:10px;
+}

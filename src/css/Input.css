@@ -1,0 +1,44 @@
+.form-element {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+  text-align: start;
+}
+.form-element label {
+  margin-inline: 5px;
+  font-weight: 500;
+}
+.form-element input {
+  padding: 7px;
+  outline: none;
+}
+.form-element h5 {
+  margin: 2px;
+  color: red;
+}
+.form-element :invalid + h5 {
+  color: red;
+}
+.form-element :valid + h5 {
+  visibility: hidden;
+  display: none;
+}
+.form-element input:valid {
+  border: 1px solid green;
+}
+
+fieldset.form-element:invalid > label {
+  color: red;
+  font-size: large;
+}
+fieldset.form-element:valid > label {
+  color: green;
+}
+/* .invisible{
+    visibility: hidden;
+    display: none;
+}
+.form-element .invisible+input{
+    border: 1px solid red;
+} */
